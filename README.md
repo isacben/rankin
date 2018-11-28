@@ -2,6 +2,8 @@
 
 This is a python scirpt that googles a keyword phrase and tries to find a blog post from a given website in the first page of the Google search results. It works by scraping this results page.
 
+Its pourpose is to quickly see if your blog post is ranking in the first page of Google for a specific search phrase.
+
 <h2>Requirements</h2>
 
 This script needs the following requirements:
@@ -22,11 +24,13 @@ Run the following command ton install beatufulsoup4:
 
 <pre>python3 -m pip install beautifulsoup4</pre>
 
+Place the ranking.py script wherever you want in your filesystem.
+
 <h2>Usage</h2>
 
-Place the rankin.py script wherever you want in your filesystem. Then run the script as follows:
+Run the script as follows:
 
-<pre>python3 rankin.py yourwebsite.com keyword phrase</pre>
+<pre>python3 ranking.py yourwebsite.com keyword phrase</pre>
 
 The script receives two parameters:
 
@@ -58,3 +62,11 @@ No post was found...
 The website parameter must have the same format the Google registers in the search results. To know what the format of your target website name is, use the following command in the Google search bar:
 
 <pre>site:yourwebsite.com</pre>
+
+<h2>Warning</h2>
+
+Be careful. Do not overuse this script. If you run it too many times, Google will notice and you will be blocked. The script will get a 503 (server error) error for certain time.
+
+<h2>Disclaimer</h2>
+
+This script was developed just for education pourposes. I do not promote the usage of this script for any other reason than that. I am not using the script for any other reason than education. I am not responsible of how anyone uses this script.
