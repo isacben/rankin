@@ -1,4 +1,4 @@
-# Readme
+# ranking.py
 
 This is a python scirpt that googles a keyword phrase and tries to find a blog post from a given website in the first page of the Google search results. It works by scraping this results page.
 
