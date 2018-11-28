@@ -1,4 +1,4 @@
-# rankin
+# Readme
 
 This is a python scirpt googles a keyword and tries to find a blog post from a given website in the search results. It works by scrap\ping the Google serach results first page.
 
