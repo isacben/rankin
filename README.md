@@ -1,26 +1,28 @@
 # Readme
 
-This is a python scirpt googles a keyword and tries to find a blog post from a given website in the search results. It works by scrap\ping the Google serach results first page.
+This is a python scirpt that googles a keyword phrase and tries to find a blog post from a given website in the first page of the Google search results. It works by scraping this results page.
 
-Requirements:
+<h2>Requirements</h2>
+
+This script needs the following requirements:
 
 * Python 3
 * requests python module
-* beautifulsoup4
+* beautifulsoup4 module
 
-Installation
+<h2>Installation</h2>
 
 To use the scritp, first install the requests module and the beaturifulsoup4 module.
 
 Run the following command to install the requests module:
 
-<code>python3 -m pip install requests</code>
+<pre>python3 -m pip install requests</pre>
 
 Run the following command ton install beatufulsoup4:
 
-<code>python3 -m pip install beautifulsoup4</code>
+<pre>python3 -m pip install beautifulsoup4</pre>
 
-Usage
+<h2>Usage</h2>
 
 Place the rankin.py script wherever you want in your filesystem. Then run the script as follows:
 
