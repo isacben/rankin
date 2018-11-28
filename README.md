@@ -37,6 +37,22 @@ Example:
 
 python3 ranking.py http://makethatbeat.com can midi keyboards play without computer
 
+The output of the script will be similar to the following one, if a post was found:
+
+<pre>
+Target website: makethatbeat.com
+Googling 'can midi keyboards play without computer'...
+I found makethatbeat.com/play-without-computer/ in position 8
+</pre>
+
+The output will be similar to the following one, if no post was found:
+
+<pre>
+Target website: makethatbeat.com
+Googling 'how to play a midi keyboard'...
+No post was found...
+</pre>
+
 <h2>Important</h2>
 
 The website parameter must have the same format the Google registers in the search results. To know what the format of your target website name is, use the following command in the Google search bar:
