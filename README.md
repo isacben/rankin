@@ -35,7 +35,7 @@ The script receives two parameters:
 
 Example:
 
-<pre>python3 ranking.py http://makethatbeat.com can midi keyboards play without computer</pre>
+python3 ranking.py http://makethatbeat.com can midi keyboards play without computer
 
 <h2>Important</h2>
 
