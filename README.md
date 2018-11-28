@@ -59,7 +59,7 @@ No post was found...
 
 <h2>Important</h2>
 
-The website parameter must have the same format the Google registers in the search results. To know what the format of your target website name is, use the following command in the Google search bar:
+The website parameter must have the same format that Google registers in the search results. To know what the format of your target website name is, use the following command in the Google search bar:
 
 <pre>site:yourwebsite.com</pre>
 
