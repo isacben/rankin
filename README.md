@@ -26,9 +26,19 @@ Run the following command ton install beatufulsoup4:
 
 Place the rankin.py script wherever you want in your filesystem. Then run the script as follows:
 
-<code>python3 rankin.py yourwebsite.com keyword phrase</code>
+<pre>python3 rankin.py yourwebsite.com keyword phrase</pre>
 
 The script receives two parameters:
 
 * A target website: the script will check if the search results have any post from the target website.
 * A keyword prase: the keyword phrase is what you would type in the google search box.
+
+Example:
+
+python3 ranking.py http://makethatbeat.com can midi keyboards play without computer
+
+<h2>Important</h2>
+
+The website parameter must have the same format the Google registers in the search results. To know what the format of your target website name is, use the following command in the Google search bar:
+
+<pre>site:yourwebsite.com</pre>
