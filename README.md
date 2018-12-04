@@ -39,7 +39,7 @@ The script receives two parameters:
 
 Example:
 
-python3 ranking.py http://makethatbeat.com can midi keyboards play without computer
+<pre>python3 ranking.py http://makethatbeat.com can midi keyboards play without computer</pre>
 
 The output of the script will be similar to the following one, if a post was found:
 
